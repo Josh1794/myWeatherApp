@@ -15,7 +15,7 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <View style={styles.logoContainer}>
           <Image
-            source={require("./assets/images/Weather-icon.png")}
+            source={require("./assets/Weather-icon.png")}
             style={styles.logo}
           />
           <Text style={styles.title}>Weather</Text>
@@ -52,7 +52,7 @@ export default class App extends React.Component {
   };
 
   _handlePressGithub = () => {
-    Linking.openURL("https://github.com/Josh1794");
+    Linking.openURL("https://github.com/Josh1794/myWeatherApp");
   };
 }
 
